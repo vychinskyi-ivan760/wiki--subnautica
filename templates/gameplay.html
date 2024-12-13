@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subnautica - Геймплей</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body id="gameplay">
+    <header>
+        <h1>Subnautica - Геймплей</h1>
+        <nav>
+            <ul>
+                <li><a href="/">Головна</a></li>
+                <li><a href="/gameplay">Геймплей</a></li>
+                <li><a href="/creatures">Істоти</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        
+        <div class="aquarium">
+            <img src="{{ url_for('static', filename='images/fish-1.png') }}" alt="Fish 1" class="fish fish-1">
+            <img src="{{ url_for('static', filename='images/fish-2.png') }}" alt="Fish 2" class="fish fish-2">
+            <img src="{{ url_for('static', filename='images/fish-3.png') }}" alt="Fish 3" class="fish fish-3">
+            <img src="{{ url_for('static', filename='images/fish-4.png') }}" alt="Fish 4" class="fish fish-4">
+        </div>
+        
+        <section>
+            <h2>Що таке Subnautica?</h2>
+            <p>Subnautica — це популярна гра на виживання в підводному світі, де гравець опиняється на чужій планеті, майже повністю покритій океаном, після аварії космічного корабля. Гравцю потрібно досліджувати океан, збирати ресурси, будувати бази та дізнатися, що спричинило катастрофу.</p>
+        </section>
+
+        <section>
+            <h2>Основні особливості геймплею</h2>
+            <p>Subnautica пропонує безліч цікавих механік, які роблять її унікальною:</p>
+            <ul>
+                <li><strong>Збір ресурсів:</strong> Шукайте матеріали для створення предметів, обладнання та модулів.</li>
+                <li><strong>Будівництво баз:</strong> Створюйте власні підводні станції для зберігання ресурсів і отримання кисню.</li>
+                <li><strong>Дослідження океану:</strong> Відкривайте різні біоми, включаючи коралові рифи, вулканічні зони та глибоководні ущелини.</li>
+                <li><strong>Виживання:</strong> Знайдіть їжу, воду і захищайтесь від агресивних істот.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Ресурси та їх використання</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Ресурс</th>
+                        <th>Використання</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Титан</td>
+                        <td>Будівництво баз і обладнання.</td>
+                    </tr>
+                    <tr>
+                        <td>Кварц</td>
+                        <td>Створення скла для вікон і акваріумів.</td>
+                    </tr>
+                    <tr>
+                        <td>Мідь</td>
+                        <td>Створення батарей.</td>
+                    </tr>
+                    <tr>
+                        <td>Свинцевий сплав</td>
+                        <td>Будівництво транспортних засобів і баз.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>Транспортні засоби</h2>
+            <p>Subnautica пропонує кілька транспортних засобів для ефективного дослідження світу:</p>
+            <ul>
+                <li><strong>Seamoth:</strong> Легкий підводний човен, ідеальний для швидкого дослідження.</li>
+                <li><strong>Prawn Suit:</strong> Потужний костюм для збору ресурсів і захисту від загроз.</li>
+                <li><strong>Cyclops:</strong> Великий підводний човен, який може використовуватись як мобільна база.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Основні виклики</h2>
+            <p>У грі є багато складнощів, які роблять її цікавою:</p>
+            <ol>
+                <li>Нестача кисню під водою.</li>
+                <li>Загроза від хижих істот, таких як Левіафан.</li>
+                <li>Складність виживання на великих глибинах через високий тиск.</li>
+                <li>Потреба у постійному поповненні запасів їжі та води.</li>
+            </ol>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Subnautica Fan Page | Створено [Ваше ім'я]</p>
+    </footer>
+</body>
+</html>
