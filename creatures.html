@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subnautica - Creatures</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Subnautica - Морські істоти</h1>
+        <nav>
+            <ul>
+                <li><a href="/">Головна</a></li>
+                <li><a href="/gameplay">Геймплей</a></li>
+                <li><a href="/creatures">Істоти</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        
+        <div class="aquarium">
+            <img src="{{ url_for('static', filename='images/fish-1.png') }}" alt="Fish 1" class="fish fish-1">
+            <img src="{{ url_for('static', filename='images/fish-2.png') }}" alt="Fish 2" class="fish fish-2">
+            <img src="{{ url_for('static', filename='images/fish-3.png') }}" alt="Fish 3" class="fish fish-3">
+            <img src="{{ url_for('static', filename='images/fish-4.png') }}" alt="Fish 4" class="fish fish-4">
+        </div>
+        
+        <section>
+            <h2>Опис морських істот</h2>
+            <p>У світі Subnautica мешкає велика кількість підводних істот, від мирних до дуже агресивних. Вивчення цих істот є ключовою частиною гри.</p>
+        </section>
+
+        <section>
+            <h2>Мирні істоти</h2>
+            <p>Ці істоти зазвичай не загрожують гравцеві і часто стають джерелом їжі чи ресурсів.</p>
+            <ul>
+                <li><strong>Peeper:</strong> Маленька риба з великим оком, чудове джерело їжі.</li>
+                <li><strong>Reefback:</strong> Гігантські істоти, що плавають у великих групах. Їх спини вкриті коралами і рослинами.</li>
+                <li><strong>Hoverfish:</strong> Невелика кругла рибка, яка легко ловиться.</li>
+            </ul>
+            <img src="{{ url_for('static', filename='images/reeftback.jpg') }}" alt="Reefback Creature" style="width: 100%; max-width: 600px; margin-top: 10px;">
+        </section>
+
+        <section>
+            <h2>Агресивні істоти</h2>
+            <p>Будьте обережні! Ці морські хижаки можуть напасти на вас, якщо наблизитеся до них.</p>
+            <ul>
+                <li><strong>Stalker:</strong> Полює на дрібні риби, але може напасти на гравця, якщо відчуває небезпеку.</li>
+                <li><strong>Sand Shark:</strong> Живе в піщаних зонах і атакує все, що порушує його територію.</li>
+                <li><strong>Reaper Leviathan:</strong> Один з найбільших і найнебезпечніших хижаків у грі. Його рев чути здалеку.</li>
+            </ul>
+            <img src="{{ url_for('static', filename='images/reaper.jpg') }}" alt="Reaper Leviathan" style="width: 100%; max-width: 600px; margin-top: 10px;">
+        </section>
+
+        <section>
+            <h2>Корисні поради</h2>
+            <p>Як поводитись із морськими істотами:</p>
+            <ol>
+                <li>Зберігайте дистанцію з агресивними видами.</li>
+                <li>Використовуйте **Scanner** для збору даних про істот.</li>
+                <li>Будьте готові втекти, якщо помітите Reaper Leviathan!</li>
+            </ol>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Subnautica Fan Page | Створено [Ваше ім'я]</p>
+    </footer>
+</body>
+</html>
